@@ -179,7 +179,7 @@ describe('Function "dramaMoviesScore"', () => {
         { genre: ['Drama'], score: 9 },
         { genre: ['Drama'], score: 7 }
       ])
-    ).toBe(8.33);
+    ).toBe(8.32);
   });
 
   it('should only calculate the average for drama movies', () => {
